@@ -138,7 +138,7 @@ export default function Cart() {
         contentContainerStyle={styles.cartList}
       />
 
-      <View style={styles.footer}>
+      <View style={[styles.footer, { marginBottom: Platform.OS === 'android' ? 30 : 0 }]}>
         <Text style={styles.totalText}>Total: ${getTotalPrice()}</Text>
         <TouchableOpacity
           onPress={handleCheckout}
