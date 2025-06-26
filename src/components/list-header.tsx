@@ -29,13 +29,13 @@ export const ListHeader = ({
     <View style={[styles.headerContainer]}>
       <View style={styles.headerTop}>
         <View style={styles.headerLeft}>
-          <View style={styles.avatarContainer}>
+            <View style={styles.avatarContainer}>
             <Image
-              source={{ uri: 'https://www.pngkey.com/png/detail/115-1150152_default-profile-picture-avatar-png-green.png' }}
+              source={require('../../assets/icon2.png')}
               style={styles.avatarImage}
             />
-            <Text style={styles.avatarText}>Hello codewithlari</Text>
-          </View>
+            <Text style={styles.avatarText}>Welcome to Buybox</Text>
+            </View>
         </View>
         <View style={styles.headerRight}>
           <Link style={styles.cartContainer} href='/cart' asChild>
