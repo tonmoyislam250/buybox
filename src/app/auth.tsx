@@ -35,7 +35,11 @@ export default function Auth() {
   });
 
   const signIn = async (data: zod.infer<typeof authSchema>) => {
-    const { error } = await supabase.auth.signInWithPassword(data);
+    const credentials = {
+      email: data.email,
+      password: data.password,
+    };
+    const { error } = await supabase.auth.signInWithPassword(credentials);
 
     if (error) {
       alert(error.message);
@@ -49,7 +53,11 @@ export default function Auth() {
   };
 
   const signUp = async (data: zod.infer<typeof authSchema>) => {
-    const { error } = await supabase.auth.signUp(data);
+    const credentials = {
+      email: data.email,
+      password: data.password,
+    };
+    const { error } = await supabase.auth.signUp(credentials);
 
     if (error) {
       alert(error.message);

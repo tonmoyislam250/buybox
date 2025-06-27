@@ -1,0 +1,12 @@
+npx expo install @react-native-async-storage/async-storage @rneui/themed @stripe/stripe-react-native @tanstack/react-query expo-constants expo-device expo-linking expo-notifications expo-router expo-secure-store expo-status-bar expo-system-ui react react-native react-native-get-random-values react-native-safe-area-context react-native-screens react-native-toast-notifications
+
+npm install @hookform/resolvers @react-navigation/native @supabase/supabase-js aes-js date-fns react-hook-form react-native-url-polyfill stripe zod zustand expo
+
+
+Problems loading reference 'https://json.schemastore.org/tsconfig': Unable to load schema from 'https://json.schemastore.org/tsconfig': connect ETIMEDOUT 20.42.128.105:443.
+
+npx expo install expo-constants@~16.0.2 expo-linking@~6.3.1 expo-router@~3.5.20 expo-secure-store@~13.0.2 expo-status-bar@~1.12.1 expo-notifications@~0.28.16 expo-device@~6.0.2 @react-native-async-storage/async-storage@^1.24.0 @rneui/themed@^4.0.0-rc.8 react@18.2.0 react-native@0.74.3 react-native-get-random-values@^1.11.0 react-native-safe-area-context@4.10.5 react-native-screens@3.31.1 react-native-toast-notifications@^3.4.0 @stripe/stripe-react-native@0.37.2
+
+npm install @hookform/resolvers@^3.9.0 @supabase/supabase-js@^2.45.1 @tanstack/react-query@^5.53.1 aes-js@^3.1.2 date-fns@^3.6.0 react-hook-form@^7.52.2 zod@^3.23.8 zustand@^4.5.4 expo@~51.0.24
+
+npm install -D @babel/core @types/aes-js @types/react typescript

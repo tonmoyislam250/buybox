@@ -8,7 +8,6 @@ import {
   View,
 } from 'react-native';
 
-import { ORDERS } from '../../../../assets/orders';
 import { getMyOrder } from '../../../api/api';
 import { format } from 'date-fns';
 
